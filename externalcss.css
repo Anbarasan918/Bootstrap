@@ -1,0 +1,27 @@
+ 
+
+.header{
+    background-color: #e6f5ea;    
+    height: 60 px;
+       }
+
+.content{
+    background-color: red;
+    height: 500px;
+    }
+.inb{
+      margin-top: 125px;
+      background-color: white;
+      height: 200px;
+      border-radius: 5px;
+      width:510px;
+    }
+.control-label{
+          text-align:left !important;
+          } 
+.position{
+      margin-top: 50px;
+     } 
+button{
+    width: 110px;
+     } 

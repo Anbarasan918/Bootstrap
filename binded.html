@@ -1,0 +1,244 @@
+<html>
+
+<head>
+  <title>4G MIFI</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<style>
+  .outterbox {
+
+    height: 600px;
+    padding: 30px;
+  }
+
+  .innerbox {
+    background-color: #ebeef2;
+
+    height: 500px;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .mbline {
+    border-bottom: 1px solid black;
+  }
+
+  .align {
+    text-align: center;
+
+  }
+
+  .header {
+    background-color: #e6f5ea;
+    height: 60px;
+  }
+
+  .content {
+
+    height: 500px;
+  }
+
+  .inb {
+    margin-top: 125px;
+    background-color: white;
+    height: 200px;
+    border-radius: 5px;
+  }
+
+  .control-label {
+    text-align: left !important;
+  }
+
+  .position {
+    margin-top: 50px;
+  }
+
+  .bg {
+    background-color: red;
+    height: auto;
+  }
+</style>
+
+<body class="bg">
+  <div class="row">
+    <div class="col-md-12 header">
+      <img src="logoAirtel.png">
+    </div>
+    <div class="col-md-6">
+      <div class="outterbox">
+
+        <div class="col-md-12 innerbox">
+          <div>
+            <h1>FORM VALIDATION</h1><br>
+            <div class="mbline"></div>
+          </div>
+          <form>
+            <div>
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <label class="control-label" for="name">First name:</label>
+                  <div>
+                    <input class="form-control" type="text" id="firstname" name="name" placeholder="First name"
+                      required>
+                  </div>
+                </div>
+
+
+                <div class="form-group col-md-6">
+                  <label class="control-label" for="name">Last name:</label>
+                  <div>
+                    <input class="form-control" type="text" id="lastname" name="name" placeholder="Last name" required>
+                  </div>
+                </div>
+
+
+              </div>
+
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <label class="control-label" for="mail">Email:</label>
+                  <div>
+                    <input class="form-control" type="email" id="email" name="mail" placeholder="Email Id" required>
+                  </div>
+                </div>
+
+                <div class="form-group col-md-6">
+                  <label class="control-label" for="pwd">Password:</label>
+                  <div>
+                    <input class="form-control" type="password" id="pwd" name="pwd" placeholder="Password" required>
+
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <label class="control-label" for="state">City:</label>
+                  <div>
+                    <input class="form-control" type="text" id="city" name="state" placeholder="city" required>
+                  </div>
+                </div>
+
+                <div class="form-group col-md-6">
+                  <label class="control-label" for="sav">Select any value:</label>
+                  <div>
+                    <input class="form-control" type="text" id="value" name="sav" placeholder="Open this select menu"
+                      required>
+
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <label class="control-label" for="choose">File:<label><br>
+                      <div>
+                        <input class="form-control" type="text" id="text3" name="choose" placeholder=" choose a file"
+                          required>
+
+                      </div>
+                </div>
+
+                <div class="form-group col-md-6">
+
+                  <div>
+                    <input type="checkbox" id="checkbox" name="checkbox">
+                    <label class="control-label" for="checkbox"> check this custom checkbox</label>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="form-group col-md-6">
+
+                  <div>
+                    <input type="radio" id="radio" name="select">
+                    <label class="control-label" for="select">Toggle this custom radio</label>
+                  </div>
+                </div>
+
+                <div class="form-group col-md-6">
+
+                  <div>
+                    <input type="radio" id="radio1" name="select1">
+                    <label class="control-label" for="select1">Or toggle this other custom radio</label>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+            <div class="mbline"></div>
+
+            <div class="col-md-12 align">
+              <button class="btn btn-info">Submit form</button></div>
+        </div>
+        </form>
+
+
+      </div>
+
+
+
+
+    </div>
+
+
+
+
+
+    <div class="col-md-6">
+      <div class="row">
+
+
+
+      </div>
+
+      <div class="row">
+        <div class="col-md-12 content">
+
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6 inb ">
+              <form class=" form-horizontal">
+                <div class="form-group position">
+                  <label class="control-label col-md-3" for="text">Username:</label>
+                  <div class="col-md-6">
+                    <input type="text" class="form-control " id="text" name="text" placeholder="Username" required>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label class="control-label col-md-3" for="pwd">Password:</label>
+                  <div class="col-md-6">
+                    <input type="password" class="form-control " id="pwd" name="pwd" placeholder="password" required>
+                  </div>
+                  <button class="btn btn-danger">Login</button>
+                </div>
+
+              </form>
+            </div>
+
+
+          </div>
+
+
+        </div>
+        <div class="col-md-3"></div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+</body>
